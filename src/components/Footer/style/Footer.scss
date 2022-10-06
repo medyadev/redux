@@ -1,0 +1,39 @@
+@import "./src/style/Reset";
+@import "./src/style/Variables";
+
+#footer {
+  background: #000000;
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 0;
+
+    &__messenger {
+      display: flex;
+      justify-content: center;
+
+      &__item {
+        color: #089eee;
+        font-size: 2vw;
+        margin-left: 1vw;
+      }
+    }
+
+    .footer-icon {
+      font-size: 2vw;
+    }
+
+    &__ol {
+      &__li {
+        &__link {
+          font-size: 1.5vw;
+          line-height: 2vw;
+          font-family: Arial, sans-serif;
+          font-weight: bolder;
+          color: white;
+        }
+      }
+    }
+  }
+}

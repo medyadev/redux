@@ -1,0 +1,45 @@
+@import "./src/style/Reset";
+@import "./src/style/Variables";
+@import "./Media";
+
+#header {
+  background: #000;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+
+    &__logo {
+      font-size: 2.2vw;
+    }
+
+    &__menu {
+      display: flex;
+      align-items: center;
+
+      &__link {
+        margin-left: 4vw;
+        font-size: 1.4vw;
+        font-family: Arial, sans-serif;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &__select{
+        margin-left: 4vw;
+        font-size: 1.4vw;
+        font-family: Arial, sans-serif;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .active {
+        color: #ff0000;
+      }
+    }
+  }
+}
